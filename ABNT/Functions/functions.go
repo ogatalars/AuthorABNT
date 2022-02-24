@@ -89,7 +89,7 @@ func juniorName(name string) bool {
 	returnBool := false
 	var juniorNameArray []string
 
-	juniorNameArray = append(juniorNameArray, "filho", "filha", "neto", "neta", "junior", "júnior", "segundo", "segunda", "terceiro", "terceira")
+	juniorNameArray = append(juniorNameArray, "filho", "filha", "neto", "neta", "junior", "júnior", "jr", "segundo", "segunda", "terceiro", "terceira")
 
 	for i := 0; i < len(juniorNameArray); i++ {
 		if strings.ToLower(name) == juniorNameArray[i] {
